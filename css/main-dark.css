@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.prof__articles{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+*{
+    margin: 0;
+
+}
+
+#anim{
+    width: 100%;
+    height: 100%;
+}
+
+.prof__input__buttosn{
+    padding-right: 0;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    fill: black;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+
+
+.main_logo{
+    padding-right: 0;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    fill: white;
+    color: white;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    width: 294px;
+}
+
+.safety{
+    user-select: none;
+    color: black;
+    font-size: 20px;
+}
+
+.neon{
+    transition: text-shadow, 1s;
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    user-select: none;
+}
+
+.neon:hover{
+    transition: text-shadow, .5s;
+    text-shadow: 0 0 5px rgba(0,0,0,.5);
+    font-size: 80px;
+    text-align: center;
+    color: black;
+}
+
+.prof__input__button{
+    padding-right: 0px;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    fill: black;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+
+.prof__input__button__img{
+    padding: 0px;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    fill: black;
+    color: black;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    margin: 0 30px 0 0;
+    border: 1px solid black;
+    width: 361px;
+    height: 203px;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 10% 0 10%;
+
+}
+
+.prof__name{
+    color: black;
+}
+
+.logo{
+    text-align: right;
+}
+
+.p__theme{
+    color: black;
+}
+
+.login{
+    font-size: 18px;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Jost', sans-serif;
+}
+
+.header{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_slide{
+    height: 100vh;
+    width: 90%;
+    margin: 0 5% 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.prof__profile{
+    margin: 150px 0 0 0;
+    width: 100%;
+    display: flex;
+
+}
+.prof__filt{
+    display: flex;
+}
+.prof__articles{
+    padding: 15px 0 15px 0;
+}
+
+.prof__info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.prof__theme{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.form_input{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+.form_input__img{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+.change{
+    margin: 20px 0 0 0;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    cursor: pointer;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Jost', sans-serif;
+}
+.change:focus{
+    outline: none;
+    border: none;
+}
+
+
+.vert{
+    background: black;
+    width: 1px;
+    height: 500px;
+}
+
+.prof__name{
+    margin: 15px 0 0 0;
+}
+
+.info_art{
+    margin: 10px 0 5px 0;
+}
+
+.nah{
+    color: darkgrey;
+    user-select: none;
+}
+
+.logout{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 50px 0 0 0;
+    text-align: right;
+    width: 100px;
+}
+.prof__button{
+    color: black;
+    padding: 0;
+    font-size: 18px;
+    margin: 50px 0 0 0;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    fill: black;
+    cursor: pointer;
+    width: 90px;
+    text-align: center;
+}
+
+.prof__button::after{
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+}
+
+.prof__button:hover::after{
+    width: 100%;
+}
+
+.nch{
+    color: #646464;
+}
+
+.hidden{
+    display: none;
+}
+
+.red{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+.cannot_change{
+    color: #969696;
+    user-select: none;
+    cursor: default;
+}
+@media only screen and (max-device-width:1000px) {
+    #themmm{
+        flex-direction: column;
+    }
+}
